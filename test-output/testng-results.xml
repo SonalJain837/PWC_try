@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-23T11:22:52 IST" name="Suite" finished-at="2021-03-23T11:22:52 IST" duration-ms="58">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.firstTest()[pri:0, instance:Test.Day1@2a266d09]" name="firstTest" class="Test.Day1"/>
+        <method signature="Day2.ploan()[pri:0, instance:Test.Day2@5ab9e72c]" name="ploan" class="Test.Day2"/>
+        <method signature="Day4.loginAPIHomeloan()[pri:0, instance:Test.Day4@186f8716]" name="loginAPIHomeloan" class="Test.Day4"/>
+        <method signature="Day4.mobileLoginHomeloan()[pri:0, instance:Test.Day4@186f8716]" name="mobileLoginHomeloan" class="Test.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-03-23T11:22:52 IST" name="Regression" finished-at="2021-03-23T11:22:52 IST" duration-ms="58">
+      <class name="Test.Day2">
+        <test-method signature="ploan()[pri:0, instance:Test.Day2@5ab9e72c]" started-at="2021-03-23T11:22:52 IST" name="ploan" finished-at="2021-03-23T11:22:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day1">
+        <test-method signature="firstTest()[pri:0, instance:Test.Day1@2a266d09]" started-at="2021-03-23T11:22:52 IST" name="firstTest" finished-at="2021-03-23T11:22:52 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- Test.Day1 -->
+      <class name="Test.Day4">
+        <test-method signature="loginAPIHomeloan()[pri:0, instance:Test.Day4@186f8716]" started-at="2021-03-23T11:22:52 IST" name="loginAPIHomeloan" finished-at="2021-03-23T11:22:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIHomeloan -->
+        <test-method signature="mobileLoginHomeloan()[pri:0, instance:Test.Day4@186f8716]" started-at="2021-03-23T11:22:52 IST" name="mobileLoginHomeloan" finished-at="2021-03-23T11:22:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeloan -->
+      </class> <!-- Test.Day4 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
